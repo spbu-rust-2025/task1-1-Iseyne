@@ -11,5 +11,5 @@ fn main() {
 		.map(|s| s.parse().expect("Error: user entered something other than a number"))
 		.collect();
 
-	println!("{}", nums[0] + nums[1]);
+	print!("{}", nums[0] + nums[1]);
 }
